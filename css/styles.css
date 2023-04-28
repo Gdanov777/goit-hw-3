@@ -105,6 +105,7 @@ li {
 
 .header-nav-link {
   padding: 24px 0;
+  gap: 40px;
 }
 
 .contact-paragraf {
