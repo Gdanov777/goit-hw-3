@@ -17,8 +17,6 @@ li {
   flex-basis: calc((100% - 48px) / 3);
 }
 
-/* header */
-
 .link {
   font-weight: 500;
   font-size: 16px;
@@ -33,6 +31,7 @@ li {
 }
 
 .link-logo {
+  margin-right: 76px;
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -70,6 +69,16 @@ li {
   text-decoration: none;
 }
 
+/* Header */
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+  display: flex;
+}
+
 .header-link {
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
@@ -88,6 +97,10 @@ li {
 
 .header-nav {
   display: flex;
+  align-items: center;
+}
+
+.header-nav-link {
 }
 
 .header-link-address {
@@ -135,11 +148,21 @@ li {
   padding-right: 15px;
 }
 
+img {
+  display: block;
+}
+
+/* ADDRESS */
+
 .card-set {
   display: flex;
-  flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
+}
+
+.project-card {
+  margin-right: 40px;
+}
+.project-card-tel {
+  margin-right: 0;
 }
 
 .section-portfolio {
@@ -158,6 +181,9 @@ li {
 .list {
   list-style: none;
   display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
 }
 
 .title-all {
@@ -192,20 +218,28 @@ li {
   width: 511px;
   padding: 188px 472px 48px 472px;
 }
+/* Button */
 
 .filters-btn {
   font-family: 'Roboto', sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  background-color: #f4f4fd;
+  line-height: 24px;
+  padding: 12px 24px;
+
+  color: #4d5ae5;
+
+  background: #f4f4fd;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
   cursor: pointer;
 }
 
 .filters-btn:hover,
 .filters-btn:focus {
   color: #ffffff;
+  border: 1px solid transparent;
 }
 
 .filters-btn:hover,
