@@ -97,22 +97,21 @@ li {
 
 .header-nav {
   display: flex;
-  gap: 40px; 
+  gap: 40px;
   align-items: center;
 }
 
 .header-nav-link {
-  padding: 24px 0; 
+  padding: 24px 0;
 }
 
 .contact-paragraf {
- font-size: 16px;
- line-height: 1.5;
- letter-spacing: 0.02em;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
   margin-right: 0;
 }
-
 
 .contact-paragraf:hover,
 .contact-paragraf:focus {
@@ -130,8 +129,8 @@ li {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
-
 
 .content {
   padding: 32px 16px;
@@ -156,6 +155,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   row-gap: 48px;
+  gap: 24px;
 }
 
 .project-card {
@@ -165,7 +165,6 @@ img {
 .project-card-tel {
   margin-right: 0;
 }
-
 
 /* paragraf */
 
@@ -184,6 +183,18 @@ img {
   margin-bottom: 72px;
 }
 
+.section-advant{
+  padding: 120px 0; 
+}
+
+.advant-item{
+width: calc((100% - 72px) / 4);
+}
+
+.team{
+  padding-bottom: 120px; 
+}
+
 .title-all {
   font-size: 36px;
   line-height: 1.11;
@@ -191,8 +202,8 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--brand-color);
+  margin-bottom: 72px;
 }
-
 
 .main-title-bg {
   text-align: center;
@@ -205,7 +216,7 @@ img {
 }
 
 .main-title {
-  width: 496px;
+  max-width: 496px;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -262,14 +273,13 @@ img {
   cursor: pointer;
   display: block;
   min-width: 169px;
-margin: 0 auto;
+  margin: 0 auto;
 }
 
 .button-main-title:hover,
 .button-main-title:focus {
   background: #404bbf;
 }
-
 
 /* footer */
 
@@ -295,6 +305,3 @@ margin: 0 auto;
 .portfolio-title {
   margin-bottom: 8px;
 }
-
-
-
