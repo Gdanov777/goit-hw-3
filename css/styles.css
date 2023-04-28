@@ -37,12 +37,12 @@ li {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
-  align-items: center;
+  display: inline-block;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
   color: #4d5ae5;
+  padding: 24px 0;
 }
 .logo-web {
   color: #2e2f42;
@@ -97,25 +97,25 @@ li {
 
 .header-nav {
   display: flex;
+  gap: 40px; 
   align-items: center;
 }
 
 .header-nav-link {
+  padding: 24px 0; 
 }
 
-.header-link-address {
-  text-decoration: none;
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+.contact-paragraf {
+ font-size: 16px;
+ line-height: 1.5;
+ letter-spacing: 0.02em;
   color: #434455;
+  margin-right: 0;
 }
 
-.header-link-address:hover,
-.header-link-address:focus {
+
+.contact-paragraf:hover,
+.contact-paragraf:focus {
   color: #404bbf;
 }
 
@@ -123,6 +123,7 @@ li {
   font-style: normal;
 }
 
+.peculiarity,
 .portfolio-title {
   font-weight: 500;
   font-size: 20px;
@@ -131,9 +132,6 @@ li {
   color: #2e2f42;
 }
 
-.project-card {
-  width: calc((100% - 48px) / 3);
-}
 
 .content {
   padding: 32px 16px;
@@ -168,10 +166,7 @@ img {
   margin-right: 0;
 }
 
-.section-portfolio {
-  padding-top: 96px;
-  padding-bottom: 120px;
-}
+
 /* paragraf */
 
 .discription {
@@ -198,9 +193,6 @@ img {
   color: var(--brand-color);
 }
 
-.names-of-specialists {
-  letter-spacing: 0.02em;
-}
 
 .main-title-bg {
   text-align: center;
@@ -213,14 +205,17 @@ img {
 }
 
 .main-title {
+  width: 496px;
   font-size: 56px;
   line-height: 1.07;
+  text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
-  max-width: 496px;
-  width: 511px;
-  padding: 188px 472px 48px 472px;
+  color: #f4f4fd;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
 }
+
 /* Button */
 
 .filters-btn {
@@ -267,7 +262,7 @@ img {
   cursor: pointer;
   display: block;
   min-width: 169px;
-
+margin: 0 auto;
 }
 
 .button-main-title:hover,
@@ -275,50 +270,6 @@ img {
   background: #404bbf;
 }
 
-/* saction 2  */
-
-.peculiarity {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-
-  color: var(--brand-color);
-}
-
-.peculiarity-details {
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-.chapter-our-team-bg {
-  background: #f4f4fd;
-}
-
-.highlight-photo {
-  background: #ffffff;
-  width: 264px;
-  height: 380px;
-}
-
-.names-of-specialists {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-
-  color: var(--brand-color);
-}
-
-.profession {
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
 
 /* footer */
 
@@ -341,44 +292,9 @@ img {
   margin-top: 18px;
 }
 
-/* PORTFOLIO */
-
 .portfolio-title {
   margin-bottom: 8px;
 }
 
-.filters-btn {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
 
-  color: #4d5ae5;
 
-  background: #f4f4fd;
-  border: 1px solid #e7e9fc;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.filters-btn:hover {
-  background: #404bbf;
-  color: #ffffff;
-}
-
-.photo-caption {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--brand-color);
-}
-
-.viem-portfolio {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
