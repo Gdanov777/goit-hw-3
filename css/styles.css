@@ -164,6 +164,9 @@ body {
   padding-right: 15px;
 }
 
+img {
+  display: block;
+}
 
 /* ADDRESS */
 
