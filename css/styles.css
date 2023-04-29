@@ -170,6 +170,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
+  row-gap: 48px;
 }
 
 .project-card {
@@ -202,6 +203,11 @@ img {
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
+  
+}
+.section-on{
+display: flex;
+gap: 24px; 
 }
 
 .section-advant {
