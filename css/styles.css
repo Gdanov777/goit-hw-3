@@ -179,10 +179,16 @@ img {
   border-radius: 0px 0px 4px 4px;
   margin-bottom: 48px;
   padding-bottom: 24px;
+  padding: 24px 0;
+  margin-right: 40px;
 }
 
 .project-card-tel {
   margin-right: 0;
+}
+
+.project-card{
+  border-radius: 0px 0px 4px 4px; 
 }
 
 .chapter-our-team-bg {
