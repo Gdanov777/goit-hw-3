@@ -110,15 +110,12 @@ body {
   align-items: center;
 }
 
-.nav-list {
-  display: flex;
-  gap: 40px;
- 
+.header-nav-link{
+  padding: 24px 0
 }
 
-.header-nav-link {
-  padding: 40px 0;
-  
+.nav-list {
+  display: flex;
 }
 
 .contact-paragraf {
@@ -188,7 +185,8 @@ img {
 }
 
 .project-card{
-  border-radius: 0px 0px 4px 4px; 
+  border-radius: 0px 0px 4px 4px;
+  margin-right: 40px; 
 }
 
 .chapter-our-team-bg {
