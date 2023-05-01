@@ -226,6 +226,7 @@ img {
 
 .project-card {
   width: calc((100% - 48px) / 3);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .project-card:nth-child(3n){
@@ -244,7 +245,7 @@ img {
 }
 
 .project-card-set{
-  width: calc((100% - 48px) / 3);
+  width: calc((100% - 3 * 16px) / 3)
 }
 
 .project-card-tel {
@@ -252,7 +253,7 @@ img {
 }
 
 .chapter-our-team-bg{
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 /* paragraf */
