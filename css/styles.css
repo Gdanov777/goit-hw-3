@@ -164,6 +164,7 @@ div {
 .address {
   display: block;
   font-style: italic;
+
 }
 
 .peculiarity,
@@ -173,7 +174,7 @@ div {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 8px;
+  margin-top: 0;
 }
 
 .content {
@@ -248,13 +249,19 @@ img {
   gap: 24px;
   margin-bottom: 72px;
 }
-.section-on {
+.section-one {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
 }
 
 .section-advant {
-  padding: 120px 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.section-advant.advant-item:not(:last-child){
+  margin-right: 24px;
 }
 
 .advant-item {
