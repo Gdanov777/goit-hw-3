@@ -18,6 +18,11 @@
 
 *::before,
 *::after {
+  box-sizing: inherit;
+}
+
+*::after,
+*::before{
   box-sizing: border-box;
 }
 
@@ -156,15 +161,16 @@ div {
   color: #434455;
 }
 
+.contact-paragraf:active {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
 .contact-paragraf:hover,
 .contact-paragraf:focus {
   color: #404bbf;
-}
-
-.address {
-  display: block;
-  font-style: italic;
-
 }
 
 .peculiarity,
@@ -178,9 +184,9 @@ div {
 }
 
 .content {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
   border-top: none;
+  border: 1px solid #e7e9fc;
+  padding: 32px 16px;
 }
 .container {
   width: 1158px;
@@ -194,18 +200,43 @@ img {
 
 /* ADDRESS */
 
+.address {
+  font-style: normal;
+}
+
+.card-set{
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
 .card-set-img {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 24px;
   row-gap: 48px;
+  column-gap: 24px;
+  background-color: #ffffff;
 }
+
+.card-set-img > .project-card{
+  flex-basis: calc((100% - 48px) / 3);
+  padding-bottom: inherit;
+}
+
 
 .project-card {
   width: calc((100% - 48px) / 3);
-  border-radius: 0px 0px 4px 4px;
-  margin-bottom: 48px; 
 }
+
+.project-card:nth-child(3n){
+  margin-right: 0;
+}
+.project-card:nth-last-child(-n +3){
+  margin-bottom: 0;
+}
+
+
+
 
 .project-card-list {
   padding: 24px 0;
