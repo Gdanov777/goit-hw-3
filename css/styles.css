@@ -146,7 +146,6 @@ div {
 
 .nav-list {
   display: flex;
-  gap: 40px;
 }
 
 .contact-paragraf {
@@ -222,7 +221,7 @@ img {
 }
 
 .project-card {
-  flex-basis: calc((100%-48) / 3);
+  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   margin-bottom: 48px; 
 }
