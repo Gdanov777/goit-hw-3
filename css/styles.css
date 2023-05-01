@@ -174,7 +174,7 @@ div {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 0;
+  margin-bottom: 8px;
 }
 
 .content {
@@ -196,8 +196,9 @@ img {
 
 .card-set {
   display: flex;
+  flex-wrap: wrap;
   column-gap: 24px;
-  row-gap: 48px; 
+   
 
   
 }
@@ -222,7 +223,8 @@ img {
 
 .project-card {
   flex-basis: calc((100%-48) / 3);
-  border-radius: 0px 0px 4px 4px; 
+  border-radius: 0px 0px 4px 4px;
+  margin-bottom: 48px; 
 }
 
 .project-card:nth-child(-n + 3) {
