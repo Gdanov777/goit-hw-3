@@ -128,6 +128,7 @@ body {
 .project-card-list {
   padding-top: 24px;
   padding-bottom: 24px;
+  margin-right: 40px
 }
 
 .address {
@@ -137,7 +138,6 @@ body {
 .card-set{
   margin: 0;
   display: flex;
-  gap: 40px;
   align-items: center;
 }
 
