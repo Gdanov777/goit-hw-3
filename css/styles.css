@@ -46,6 +46,10 @@ body {
   display: block;
 }
 
+img{
+display: block;
+}
+
 .link {
   font-weight: 500;
 
