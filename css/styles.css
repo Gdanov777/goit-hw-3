@@ -149,6 +149,7 @@ div {
   padding: 24px 0;
 }
 
+
 .nav-list-card {
   display: flex;
   gap: 40px;
@@ -218,11 +219,6 @@ img {
   background-color: #ffffff;
 }
 
-.card-set-img > .project-card{
-  flex-basis: calc((100% - 48px) / 3);
-  padding-bottom: inherit;
-}
-
 
 .project-card {
   width: calc((100% - 48px) / 3);
@@ -241,11 +237,10 @@ img {
 
 .project-card-list {
   padding: 24px 0;
-  margin-right: 40px;
 }
 
 .project-card-set{
-  width: calc((100% - 48px) / 3);
+  flex-basis: calc((100% - 48px) / 3) 
 }
 
 .project-card-tel {
