@@ -31,9 +31,6 @@
 a:-webkit-any-link {
   cursor: pointer;
 }
-li {
-  text-align: -webkit-match-parent;
-}
 
 html {
   tab-size: 4;
@@ -208,9 +205,6 @@ body {
   padding: 0 15px;
 }
 
-img {
-  display: block;
-}
 
 /* ADDRESS */
 
@@ -224,7 +218,7 @@ img {
 }
 
 .project-card-img{
-  width: calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   margin-bottom: 48px; 
 }
