@@ -200,11 +200,12 @@ body {
   border: 1px solid #e7e9fc;
   padding: 32px 16px;
   border-top: none;
+ 
 }
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0;
 }
 
 img {
@@ -220,7 +221,6 @@ img {
   column-gap: 24px;
   row-gap: 48px;
   background-color: #ffffff;
-  background-color: aqua;
 }
 
 
@@ -288,7 +288,7 @@ img {
 }
 
 .advant-item {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4)
 }
 
 .team {
@@ -420,6 +420,7 @@ img {
 .portfolio-title {
   margin-bottom: 8px;
 }
+
 .section-portfolio {
   padding: 96px 0 120px;
 }
