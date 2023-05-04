@@ -212,7 +212,8 @@ margin-right: 0;
 
 .card-set-img {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  row-gap: 24px;
   background-color: #ffffff;
 }
 
