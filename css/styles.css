@@ -209,11 +209,17 @@ margin-right: 0;
 }
 
 /* ADDRESS */
+.card-set-img-team {
+  display: flex;
+  gap: 24px;
+  background-color: #ffffff;
+}
 
 .card-set-img {
   display: flex;
   flex-wrap: wrap;
-  row-gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
   background-color: #ffffff;
 }
 
