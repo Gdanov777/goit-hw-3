@@ -131,7 +131,6 @@ margin-right: 0;
 .project-card-list {
   padding-top: 24px;
   padding-bottom: 24px;
-  margin-right: 40px;
 }
 
 .card-set{
@@ -259,9 +258,6 @@ margin-right: 0;
 
 .list {
   list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 24px;
 }
 
 .list-btn {
