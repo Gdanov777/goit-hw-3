@@ -49,7 +49,7 @@ display: block;
 }
 
 li{
-
+margin-right: 0;
 }
 
 .link {
@@ -131,6 +131,7 @@ li{
 .project-card-list {
   padding-top: 24px;
   padding-bottom: 24px;
+  margin-right: 40px;
 }
 
 .card-set{
