@@ -131,7 +131,6 @@ margin-right: 0;
 .project-card-list {
   padding-top: 24px;
   padding-bottom: 24px;
-  margin-right: 40px;
 }
 
 .address {
@@ -227,6 +226,7 @@ margin-right: 0;
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
+  row-gap: 48px;
   background-color: #ffffff;
 }
 
@@ -239,7 +239,6 @@ margin-right: 0;
 .project-card {
   width: calc((100% - 48px) / 3);
   border-radius: 0px 0px 4px 4px;
-  margin-bottom: 48px;
 }
 
 .project-card-set{
