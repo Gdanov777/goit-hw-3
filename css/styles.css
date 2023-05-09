@@ -407,7 +407,7 @@ margin-right: 0;
 /* footer */
 
 .footer-bg {
-padding: 100px;
+padding: 100px 0;
   background-color: var(--brand-color);
 }
 
