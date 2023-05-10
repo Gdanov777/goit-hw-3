@@ -128,6 +128,7 @@ margin-right: 0;
 .project-card-list {
   padding-top: 24px;
   padding-bottom: 24px;
+  background-color: darkolivegreen;
 }
 
 .card-set-list{
@@ -213,6 +214,7 @@ margin-right: 0;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+ 
 }
 
 /* ADDRESS */
@@ -408,7 +410,7 @@ margin-right: 0;
 /* footer */
 
 .footer-bg {
-padding: 100px;
+padding: 100px 0;
   background-color: var(--brand-color);
 }
 
